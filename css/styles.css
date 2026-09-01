@@ -107,8 +107,8 @@ img { max-width: 100%; display: block; }
 
 .brand {
   font-family: var(--serif);
-  font-weight: 650;
-  font-variation-settings: 'opsz' 18;
+  font-weight: 625;
+  font-variation-settings: 'opsz' 12;
   font-size: 21px;
   color: var(--ink);
   text-decoration: none;
@@ -273,8 +273,8 @@ img { max-width: 100%; display: block; }
 .hero h1,
 .section-head h2,
 .about-copy h2 {
-  font-weight: 650;
-  font-variation-settings: 'opsz' 18;
+  font-weight: 625;
+  font-variation-settings: 'opsz' 12;
 }
 
 /* ============ How It Works ============ */
