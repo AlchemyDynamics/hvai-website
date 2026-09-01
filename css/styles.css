@@ -14,7 +14,7 @@
   --accent-dark: #7c3a0a;
   --accent-soft: #f0e5dc;
   --radius: 14px;
-  --serif: Georgia, 'Times New Roman', serif;
+  --serif: 'Times New Roman', Tinos, Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
 }
 
@@ -226,16 +226,16 @@ img { max-width: 100%; display: block; }
 
 .hero h1 {
   font-family: var(--serif);
-  font-size: clamp(36px, 4.7vw, 56px);
+  font-size: clamp(38px, 6vw, 72px);
   line-height: 1.12;
   font-weight: 700;
   margin-bottom: 22px;
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 19px;
   color: rgba(255, 255, 255, .92);
-  max-width: 640px;
+  max-width: 730px;
   margin: 0 auto 30px;
 }
 
@@ -259,7 +259,7 @@ img { max-width: 100%; display: block; }
 .section-head h2,
 .about-copy h2 {
   font-family: var(--serif);
-  font-size: clamp(28px, 4vw, 38px);
+  font-size: clamp(30px, 4vw, 48px);
   font-weight: 700;
   margin-bottom: 12px;
 }
@@ -313,7 +313,7 @@ img { max-width: 100%; display: block; }
 
 .step-card h3 {
   font-family: var(--serif);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -379,7 +379,7 @@ img { max-width: 100%; display: block; }
 
 .vehicle-card-body h3 {
   font-family: var(--serif);
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -435,7 +435,7 @@ img { max-width: 100%; display: block; }
 
 .price-card h3 {
   font-family: var(--serif);
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 14px;
 }
