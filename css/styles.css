@@ -107,8 +107,8 @@ img { max-width: 100%; display: block; }
 
 .brand {
   font-family: var(--serif);
-  font-weight: 800;
-  font-variation-settings: 'opsz' 96;
+  font-weight: 700;
+  font-variation-settings: 'opsz' 36;
   font-size: 21px;
   color: var(--ink);
   text-decoration: none;
@@ -267,12 +267,13 @@ img { max-width: 100%; display: block; }
 
 .section-head p { color: var(--muted); font-size: 16px; }
 
-/* Display serif: max optical size for razor hairline contrast (pinstripe feel) */
+/* Display serif: pinned optical size for pinstripe hairline contrast.
+   opsz 36 keeps hairlines legible on the light background (96 vanished). */
 .hero h1,
 .section-head h2,
 .about-copy h2 {
-  font-weight: 800;
-  font-variation-settings: 'opsz' 96;
+  font-weight: 700;
+  font-variation-settings: 'opsz' 36;
 }
 
 /* ============ How It Works ============ */
