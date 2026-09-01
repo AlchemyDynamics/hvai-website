@@ -107,7 +107,8 @@ img { max-width: 100%; display: block; }
 
 .brand {
   font-family: var(--serif);
-  font-weight: 700;
+  font-weight: 800;
+  font-variation-settings: 'opsz' 96;
   font-size: 21px;
   color: var(--ink);
   text-decoration: none;
@@ -265,6 +266,14 @@ img { max-width: 100%; display: block; }
 }
 
 .section-head p { color: var(--muted); font-size: 16px; }
+
+/* Display serif: max optical size for razor hairline contrast (pinstripe feel) */
+.hero h1,
+.section-head h2,
+.about-copy h2 {
+  font-weight: 800;
+  font-variation-settings: 'opsz' 96;
+}
 
 /* ============ How It Works ============ */
 .steps-grid {
