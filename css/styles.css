@@ -107,8 +107,8 @@ img { max-width: 100%; display: block; }
 
 .brand {
   font-family: var(--serif);
-  font-weight: 700;
-  font-variation-settings: 'opsz' 36;
+  font-weight: 650;
+  font-variation-settings: 'opsz' 18;
   font-size: 21px;
   color: var(--ink);
   text-decoration: none;
@@ -268,12 +268,13 @@ img { max-width: 100%; display: block; }
 .section-head p { color: var(--muted); font-size: 16px; }
 
 /* Display serif: pinned optical size for pinstripe hairline contrast.
-   opsz 36 keeps hairlines legible on the light background (96 vanished). */
+   Tuned down from opsz 96/800 in steps — hairlines must read on the
+   light background while keeping the Didone contrast. */
 .hero h1,
 .section-head h2,
 .about-copy h2 {
-  font-weight: 700;
-  font-variation-settings: 'opsz' 36;
+  font-weight: 650;
+  font-variation-settings: 'opsz' 18;
 }
 
 /* ============ How It Works ============ */
