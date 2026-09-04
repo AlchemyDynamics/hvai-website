@@ -1012,3 +1012,62 @@ img { max-width: 100%; display: block; }
 @media (max-width: 720px) {
   .page-hero { padding: 64px 0 56px; }
 }
+
+/* ============ Service photos ============ */
+.svc-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.svc-photos figure { margin: 0; }
+.svc-photos img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--tint);
+}
+.svc-photos figcaption {
+  margin-top: 5px;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.gallery-tile {
+  margin: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.gallery-tile img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--tint);
+}
+.gallery-tile figcaption {
+  padding: 10px 14px 12px;
+  font-family: var(--serif);
+  font-weight: 625;
+  font-variation-settings: 'opsz' 12;
+  font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 720px) {
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .gallery-tile figcaption { font-size: 14px; padding: 8px 10px 10px; }
+}
