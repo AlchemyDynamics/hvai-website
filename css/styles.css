@@ -968,3 +968,47 @@ img { max-width: 100%; display: block; }
   .portfolio-grid { grid-template-columns: 1fr; }
   .rest-row { grid-template-columns: 48px 1fr; padding: 10px 14px; }
 }
+
+/* ============ Page heroes (tab headers) ============ */
+.page-hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 96px 0 84px;
+}
+.page-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(175deg, rgba(18, 15, 12, .74) 20%, rgba(18, 15, 12, .5));
+}
+.page-hero .container {
+  position: relative;
+  text-align: center;
+}
+.page-hero h2 {
+  font-family: var(--serif);
+  font-weight: 625;
+  font-variation-settings: 'opsz' 28;
+  font-size: clamp(34px, 4.5vw, 52px);
+  line-height: 1.12;
+  color: #faf7f3;
+  text-wrap: balance;
+  margin: 0;
+}
+.page-hero p {
+  color: rgba(245, 242, 238, .85);
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 640px;
+  margin: 16px auto 0;
+}
+.ph-restorations { background-image: url('../assets/backdrops/restorations.jpg'); }
+.ph-services     { background-image: url('../assets/backdrops/services.jpg'); }
+.ph-chairs       { background-image: url('../assets/backdrops/chairs.jpg'); }
+.ph-archive      { background-image: url('../assets/backdrops/archive.jpg'); }
+.ph-about        { background-image: url('../assets/backdrops/about.jpg'); }
+
+@media (max-width: 720px) {
+  .page-hero { padding: 64px 0 56px; }
+}
